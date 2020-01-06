@@ -1,0 +1,34 @@
+div
+{
+    border: 1px solid black;
+    height: 100px;
+    width: 300px;
+
+    position: absolute;
+    right: 43%;
+    top: 38%;
+}
+
+p
+{
+	position: absolute;
+	top: 4%;
+	right: 39%
+}
+
+input.btn
+{
+	position: absolute;
+	top: 72%;	
+	right: 36%;	
+	width: 94px;
+}
+
+input.url
+{
+	position: absolute;
+	top: 44%;	
+	right: 13%;
+	width: 219px;
+}
+

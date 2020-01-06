@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ADD</title>
+</head>
+<body>
+        <form method="POST"  action="{{url_for('unp')}}">
+		<input type="hidden" name="CI" value="{{p}}">
+
+		Username: <input type="text" name="uname" placeholder="Username" required><br><br>
+
+		Password: <input type="password" name="pwd" placeholder="Password"  pattern=".{6,}" title="Six or more characters" required>
+
+		<br><br>
+		<input type="submit" name="upsub" value="add">
+	</form>
+<br>
+
+
+</body>
+</html>

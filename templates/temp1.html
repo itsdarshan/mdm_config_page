@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>choice</title>
+<!--	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">-->
+</head>
+<body>
+	<div>
+    <form method="POST"  action="{{url_for('update_info')}}">
+		<input type="hidden" name="CI" value="{{p}}">
+
+		Username: <input type="text" name="uname" placeholder="Username" required><br><br>
+
+		Password: <input type="password" name="pwd" placeholder="Password" pattern=".{6,}" title="Six or more characters" required>
+
+		<br><br>
+		<input type="submit" name="upsub" value="update">
+	</form>
+		<br>
+		<a href="{{url_for('show_all')}}">Go back to URL Page</a>
+		</div>
+
+
+</body>
+</html>

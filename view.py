@@ -86,22 +86,7 @@ def unp():
     return render_template('temp.html')
 
 
-# @app.route('/delete', methods=['POST', 'GET'])
-# def delete():
-#     if request.method == 'POST':
-#         id_info = request.form['dlt']
-#         students.query.filter(students.id == int(id_info)).delete()
-#         db.session.commit()
-#         return render_template('show_all.html', students=students.query.all())
-#
 
-
-# @app.route('/update', methods=['POST', 'GET'])
-# def update():
-#     if request.method == 'POST':
-#
-#         return render_template('temp.html')
-#
 
 
 @app.route('/update_info', methods=['POST', 'GET'])
